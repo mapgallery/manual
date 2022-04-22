@@ -1,0 +1,11 @@
+
+baseURL = 'http://example.org/'
+languageCode = 'en-us'
+title = 'MapGallery User Manual'
+theme = 'docdock'
+
+[params]
+themeStyle = 'original'
+themeVariant = 'blue'
+[outputs]
+home = [ "HTML", "RSS", "JSON"]
