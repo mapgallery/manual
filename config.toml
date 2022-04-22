@@ -5,7 +5,7 @@ title = 'MapGallery User Manual'
 theme = 'docdock'
 
 [params]
-themeStyle = 'original'
+themeStyle = 'flex'
 themeVariant = 'blue'
 [outputs]
 home = [ "HTML", "RSS", "JSON"]

@@ -1,7 +1,8 @@
 ---
-title: "How to embed"
+title: "Page 1"
 date: "`r format(Sys.time(), '%d %B, %Y')`"
 draft: false
-weight: 4
+
 ---
-How to embed
+
+To do: User manual

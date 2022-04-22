@@ -2,7 +2,9 @@
 title: "Home"
 date: "`r format(Sys.time(), '%d %B, %Y')`"
 draft: false
+
 ---
+
 # MapGallery User Manual
 Welcome to the user manual of MapGallery
 

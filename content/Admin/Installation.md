@@ -1,5 +1,5 @@
 ---
-title: "Deployment"
+title: "Installation"
 date: "`r format(Sys.time(), '%d %B, %Y')`"
 draft: false
 weight: 1
