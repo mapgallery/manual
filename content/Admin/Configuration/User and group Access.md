@@ -5,7 +5,7 @@ draft: true
 weight: 1
 ---
 
-### Add/edit users
+##### Add/edit users
 
 To add or edit users, press the button and fill in all the necessary fields to create a new user.
 
@@ -21,7 +21,7 @@ To add or edit users, press the button and fill in all the necessary fields to c
 
 Select groups to determine the access policy on group level
 
-### Add/edit groups
+##### Add/edit groups
 
 To add or edit users, press the button and fill in all the necessary fields to create a new user.
 

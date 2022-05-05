@@ -5,4 +5,12 @@ draft: true
 weight: 2
 ---
 
-Map info is used to...
+Choose what type of map information will pop up when an selection is made.
+
+- Coordinate: shows coordination of selected location
+- Streetview: streetview of selected locations will be shown if possible
+- Feature info: information/attributes and the values about the selected location(s) will be shown
+
+Visibility:
+- Collapse: Information will be collapsed in information popup
+- Visible: information will automatically be opened in information popup

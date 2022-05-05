@@ -6,7 +6,7 @@ weight: 2
 
 ---
 
-# MapGallery manual for administrators
+#### MapGallery manual for administrators
 Welcome to the manual for the administrators of MapGallery
 
 This administrator manual is a guide to all aspects of using and configuring your MapGallery environment.

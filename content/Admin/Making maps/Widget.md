@@ -5,9 +5,10 @@ draft: true
 weight: 4
 ---
 
-Widget and Search combined into attributes
+##### Widget:
+Choose which widget to be shown in map
+- Show legend: 
+- Show popup:  
 
-Widget:
-
-Search:
+##### Search:
 Select all search attributes that are usefull for the map. For explanation, refer to: `For administrator > Configuration > Search`
