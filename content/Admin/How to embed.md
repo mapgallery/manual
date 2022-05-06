@@ -14,3 +14,15 @@ The best way to do it is to embed it into your website. Therefor must create an 
 4. Select whether you want to have extra parameters in in the code
 5. Copy text
 6. Paste in HTML of your website
+
+
+Example
+
+    <iframe
+        id="mapgallery27"
+        title="Kinman's test kaart"
+        name="mapgallery"
+        width="100%"
+        height="400px"
+        src="https://baasgeo.mapgallery.info/app/embed/27">
+    </iframe>
