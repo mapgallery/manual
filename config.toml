@@ -1,5 +1,5 @@
 
-baseURL = 'http://example.org/'
+baseURL = 'https://mapgallery.info/manual/'
 languageCode = 'en-us'
 title = 'MapGallery User Manual'
 theme = 'docdock'
