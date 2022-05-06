@@ -5,6 +5,8 @@ draft: true
 weight: 1
 ---
 
+This section provides the configuration options for User/group and Access. In addition, users, groups, and roles themselves and can be added, edited, or removed. Configuration for the whole MapGallery site can be accomplished in this section.
+
 ##### Add/edit users
 
 To add or edit users, press the button and fill in all the necessary fields to create a new user.

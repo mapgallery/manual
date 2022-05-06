@@ -5,9 +5,8 @@ draft: true
 weight: 4
 ---
 
-The map is finished and it's time to add it into your website.
-
-The best way to do it is to embed it into your website. Therefor must create an iframe.
+Finally, the map is finished and it's time to add it into your website.&nbsp;  
+The best way to do it is to embed it into your website. Therefor an iframe must be created.
 1. Open the map in published maps
 2. Click on the share logo in the top right
 3. press the </> Embed button.
@@ -15,14 +14,24 @@ The best way to do it is to embed it into your website. Therefor must create an 
 5. Copy text
 6. Paste in HTML of your website
 
-
-Example
+Example simplified
 
     <iframe
-        id="mapgallery27"
-        title="Kinman's test kaart"
+        id="mapgallery1"
+        title="testmap"
         name="mapgallery"
         width="100%"
         height="400px"
-        src="https://baasgeo.mapgallery.info/app/embed/27">
+        src="https://baasgeo.mapgallery.info/app/embed/1">
+    </iframe>
+
+Example with parameters
+
+    <iframe
+        id="mapgallery1"
+        title="testmap"
+        name="mapgallery"
+        width="100%"
+        height="400px"
+        src="https://baasgeo.mapgallery.info/app/embed/1?zoom=8&center=103012,488695&layerIds=5898634633768,4669125108797,5489791876754,8168927931755">
     </iframe>

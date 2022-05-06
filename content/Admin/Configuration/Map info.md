@@ -11,9 +11,10 @@ Choose what type of map information will pop up when an selection is made.
 - Streetview: streetview of selected locations will be shown if possible
 - Feature info: information/attributes and the values about the selected location(s) will be shown
 
-![mapinfo](https://github.com/mapgallery/manual/blob/main/static/images/mapinfo.PNG?raw=true)
-
-
 Visibility:
 - Collapse: Information will be collapsed in information popup
 - Visible: information will automatically be opened in information popup
+
+![mapinfo](https://github.com/mapgallery/manual/blob/main/static/images/mapinfo.PNG?raw=true)
+
+
