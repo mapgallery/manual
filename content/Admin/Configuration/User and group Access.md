@@ -30,7 +30,7 @@ To add or edit users, press the button and fill in all the necessary fields to c
 **Tab "Group"**
 
 - Name: group name
-- Description
+- Description: description
 
 **Tab "Users"**
 
