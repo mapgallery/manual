@@ -1,29 +1,21 @@
 ---
-title: "Getting involved"
+title: "MapGallery"
 date: 2022-04-08T14:39:00+02:00
 draft: true
 ---
 
-### Getting involved
+### Raak betrokken
+MapGallery bestaat dankzij de inzet van mensen zoals u.
 
-MapGallery exists because of the efforts of people like you.
-
-There are many ways that could help MapGallery in the future. MapGallery is fully embraces an open source development model that does not see a split between user and developer, producer and consumer, but instead sees everyone as a valuable contributor.
-
-
+Er zijn vele manieren waarop u MapGallery in de toekomst zou kunnen helpen. MapGallery omarmt een open source ontwikkelingsmodel dat geen splitsing ziet tussen gebruiker en ontwikkelaar, producent en consument, maar in plaats daarvan iedereen als een waardevolle bijdrager beschouwt.
 
 ### LinkedIn
+Volg onze MapGallery LinkedIn groep om updates over MapGallery te ontvangen.
 
-Follow our MapGallery LinkedIn group to receive updates regarding MapGallery
-
-
+[MapGallery LinkedIn groep](https://www.linkedin.com/groups/8938188/)
 
 ### Feedback
+Uw feedback wordt zeer gewaardeerd, we horen het graag. Met uw hulp kunnen we van MapGallery een betere applicatie voor u maken!
 
-Your feedback is greatly appreciated, we would love to hear them. With your help, we could make MapGallery a better application for you!
-
-
-
-### Spread the word
-
-A further way to help out MapGallery is to spread the word. Word-of-mouth information sharing is more powerful than any marketing, and the more people who use our software, the better it will become.
+### Verspreid het woord
+Een andere manier om MapGallery te helpen is door het woord te verspreiden. Het delen van mond-tot-mond informatie is krachtiger dan welke marketing dan ook, en hoe meer mensen onze software gebruiken, hoe beter deze zal worden.

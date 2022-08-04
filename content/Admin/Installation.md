@@ -1,18 +1,18 @@
 ---
-title: "Installation"
+title: "Installatie"
 date: "`r format(Sys.time(), '%d %B, %Y')`"
 draft: false
 weight: 1
 ---
 ## Deployment
 
-This is a docker image that eases setting up MapGallery for organizations. This image is based on the official [nginx](https://hub.docker.com/_/nginx) image.  Simple pull the image from the docker hub.
+Dit is een docker image dat het opzetten van MapGallery voor organisaties vergemakkelijkt. Deze image is gebaseerd op de officiële [nginx](https://hub.docker.com/_/nginx) image.  Haal de image eenvoudig op van de docker hub.
 
 ```bash
 $ docker pull baasgeo/mapgallery:tagname
 ```
 
-Alternatively you can build the image locally
+Als alternatief kunt u de image lokaal opbouwen
 
 ```bash
 $ git clone https://github.com/baasgeo/docker-mapgallery.git
@@ -20,15 +20,15 @@ $ cd mapgallery-docker
 $ docker build -t "baasgeo/mapgallery:tagname" .
 ```
 
-### Quick start
+### Snelle start
 
-Create a data folder on your host:
+Maak een data map aan op uw host:
 
 ```bash
 $ sudo mkdir /var/mapgallery/
 ```
 
-then run the container:
+Start vervolgens de container:
 
 ```bash
 $ docker run \
@@ -39,63 +39,66 @@ $ docker run \
     baasgeo/mapgallery:4
 ```
 
-Point your browser to `http://localhost:8080/` and login using MapGallery's default username and password:
+Ga met uw browser naar `http://localhost:8080/` en log in met de standaard gebruikersnaam en wachtwoord van MapGallery:
 
-- Username: admin
-- Password: admin
+- Gebruikersnaam: admin
+- Wachtwoord: admin
 
-## How to use different versions
+### **Hoe kunt u verschillende versies gebruiken**
 
-There is mainly one version tag of this image for every minor **MapGallery** version.
+Er is hoofdzakelijk één versie-tag van deze image voor elke minor **MapGallery** versie.
 
 - 4.0.x -> baasgeo/mapgallery:4.0
 - 4.1.x -> baasgeo/mapgallery:4.1
 - 4.2.x -> baasgeo/mapgallery:4.2
 - 5.0.x -> baasgeo/mapgallery:5.0
 
-...and so on.  
+...enzovoort.  
 
-Patches are applied to the minor version whenever an update of MapGallery is available. Simply update to the latest version by pulling the image again.
+Patches worden toegepast op de minor versie wanneer een update van MapGallery beschikbaar is. U kunt eenvoudig updaten naar de laatste versie door de image opnieuw te trekken.
 
 ```bash
 $ docker pull baasgeo/mapgallery:tagname
 $ docker restart mapgallery
 ```
 
-## Configuration
+## Configuratie
 
-### Data volume
+### Gegevensvolume
 
-This MapGallery container keeps its configuration data at `/usr/share/nginx/assets` which is exposed as volume in the dockerfile.
-The volume allows for stopping and starting new containers from the same image without losing all the data and custom configuration.
+Deze MapGallery container bewaart zijn configuratiegegevens op in  
+`/usr/share/nginx/assets` die als volume in een dockerfile wordt getoond.
+Het volume maakt het mogelijk om nieuwe containers van hetzelfde image te stoppen en te starten zonder alle gegevens en aangepaste configuratie te verliezen.
 
-You may want to map this volume to a directory on the host. Volumes can be mounted by passing the `-v` or `--volume` flag to the docker run command:
+Mogelijk wil je dit volume mappen naar een directory op de host. Volumes kunnen gemount worden door de `-v` of `--volume` flag mee te geven aan het docker run commando:
 
 ```bash
 --volume /var/mapgallery:/usr/share/nginx/assets
 ```
-This will also ease the upgrade process in the future. 
+
+Dit zal ook het upgrade proces in de toekomst vergemakkelijken. 
 
 
-### Resource constraints
+### Beperkingen van de bronnen
 
-By default, the container has no resource constraints and can use as much of a given resource as the host’s kernel scheduler allows. To control how much memory, or CPU a container can use, apply runtime configuration flags of the `docker run` command as described here: [Runtime options with Memory, CPUs, and GPUs](https://docs.docker.com/config/containers/resource_constraints/)
+Standaard heeft de container geen resource restricties en kan zoveel van een gegeven resource gebruiken als de kernel scheduler van de host toestaat. Om te bepalen hoeveel geheugen, of CPU een container kan gebruiken, pas je runtime configuratie flags toe van het `docker run` commando zoals hier beschreven: [Runtime options with Memory, CPUs, and GPUs](https://docs.docker.com/config/containers/resource_constraints/)
 
 ### Database
 
-MapGallery uses the PostgREST api with PostgreSQL database
+MapGallery gebruikt de PostgREST api met PostgreSQL database
 
 #### PostgREST container
 
-To set up the [PostgREST](https://postgrest.org) container, use the the official [postgrest](https://registry.hub.docker.com/r/postgrest/postgrest) image:
+Om de [PostgREST](https://postgrest.org) container in te stellen, gebruik de officiële [postgrest](https://registry.hub.docker.com/r/postgrest/postgrest) image:
+
 
 ```bash
 $ docker run -d --name="postgrest" postgrest/postgrest
 ```
 
-For further information see [Docker Hub](https://registry.hub.docker.com/r/postgrest/postgrest)
+Voor meer informatie zie [Docker Hub](https://registry.hub.docker.com/r/postgrest/postgrest)
 
-Now start the MapGallery instance by adding the `--link` option to the docker run command:
+Start nu de MapGallery instantie door de `--link` optie toe te voegen aan het docker run commando:
 
 ```bash
 --link postgrest:postgrest
@@ -103,16 +106,17 @@ Now start the MapGallery instance by adding the `--link` option to the docker ru
 
 #### PostgreSQL container
 
-If you want to use a [PostgreSQL](https://www.postgresql.org/) container, you can link it to this image. You're free to use any PostgreSQL container.
-An example with the official [postgres](https://registry.hub.docker.com/_/postgres/) image:
+Als u een [PostgreSQL](https://www.postgresql.org/) container wilt gebruiken, dan kunt u die aan deze image koppelen. U bent vrij om eender welke PostgreSQL container te gebruiken.
+Een voorbeeld met het officiële [postgres](https://registry.hub.docker.com/_/postgres/) image:
+
 
 ```bash
 $ docker run -d --name="postgis" postgres
 ```
 
-For further information see [Docker Hub](https://registry.hub.docker.com/_/postgres/)
+Voor meer informatie zie [Docker Hub](https://registry.hub.docker.com/_/postgres/)
 
-Now start the MapGallery instance by adding the `--link` option to the docker run command:
+Start nu de MapGallery instantie door de `--link` optie toe te voegen aan het docker run commando:
 
 ```bash
 --link postgres:postgis

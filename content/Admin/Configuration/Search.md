@@ -5,51 +5,48 @@ draft: true
 weight: 3
 ---
 
+Kies in "Zoeken" welke attributen gebruikt moeten worden in de zoekbalk.  
+Aan een specifieke kaart kunnen meerdere attributen worden gekoppeld.  
+Op dit moment zijn er twee mogelijkheden om zoekattributen te definiëren: PDOK API en WFS
 
-
-Choose in Search which attributes has to be used in the search bar.&nbsp;  
-Multiple attributes can be linked to a specific map.&nbsp;  
-At the moment there are two possibilities to define search attributes: PDOK API and WFS
-
-{{% panel theme="info" header="Example" %}}When search attributes for postal codes and tree numbers are selected.&nbsp;  
-A user who entered "1234" in the search bar, will get results for both postal code "1234" and tree number "1234".&nbsp;  
-If tree number is the only one selected, postal code "1234" will not be shown as a result.{{% /panel %}}
-
+{{% panel theme="info" header="Voorbeeld" %}}Als zoekattributen voor postcodes en boomnummers zijn geselecteerd.  
+Een gebruiker die in de zoekbalk "1234" heeft ingevuld, krijgt resultaten voor zowel postcode "1234" als boomnummer "1234".  
+Als boomnummer de enige geselecteerde is, zal postcode "1234" niet als resultaat worden getoond.{{% /panel %}}
 
 
 
-**PDOK**, automatically uses their address attribute for searching, but extra parameters can be applied.
-- Extra URL params:&nbsp;  
-Choose a specific parameter from source default is **`FQ=*:*`** (example: `FQ=type:gemeente&type=woonplaats`)
+**PDOK** gebruikt automatisch de voorgeschreven adresattributen voor het zoeken, maar extra parameters kunnen worden toegevoegd.
+- Extra URL params:  
+Kies een specifieke parameter uit de bron standaard is **`FQ=*:*`** (voorbeeld: `FQ=type:gemeente&type=woonplaats`)
 
-- Search param expression&nbsp;  
-This field is used to add extra parameters into the search value (example: `gemeente=${value}`)
+- Zoek param expressie  
+Dit veld wordt gebruikt om extra parameters toe te voegen aan de zoekwaarde (voorbeeld: `gemeente=${value}`)
 
-For more detailed documentation and list of all available parameters in PDOK, please refer to the following sites: &nbsp;  
-`https://www.pdok.nl/restful-api/-/article/pdok-locatieserver-1`&nbsp;  
-`https://github.com/PDOK/locatieserver/wiki/API-Locatieserver`
+Voor meer gedetailleerde documentatie en een lijst van alle beschikbare parameters in PDOK, zie onderstaande links:    
+[`https://www.pdok.nl/restful-api/-/article/pdok-locatieserver-1`](https://www.pdok.nl/restful-api/-/article/pdok-locatieserver-1)  
+[`https://github.com/PDOK/locatieserver/wiki/API-Locatieserver`](https://github.com/PDOK/locatieserver/wiki/API-Locatieserver)
 
 ![PDOK_search.PNG](https://github.com/mapgallery/manual/blob/main/static/images/PDOK_search.PNG?raw=true)
 
 
 **WFS**:
-- Add base URL:&nbsp;  
-Specify data source.&nbsp;  
-Example: `http://example.com/geoserver/wfs?`
+- Add base URL:  
+Specificeer databron.  
+Voorbeeld: `http://example.com/geoserver/wfs?`
 
-- Add URL param:&nbsp;  
-Example: `CQL_Filter`
+- Add URL param:  
+Voorbeeld: `CQL_Filter`
 
-- Extra URL params:&nbsp;  
-Example: `TYPENAMES=[WORKSPACE]:[TABLE]&MAXFEATURES=20`
+- Extra URL params:  
+Voorbeeld: `TYPENAMES=[WORKSPACE]:[TABLE]&MAXFEATURES=20`
 
-- Search param expression: &nbsp;  
-Example: `[COLUMN] ilike '%${value}'`
+- Search param expression:   
+Voorbeeld: `[COLUMN] ilike '%${value}'`
 
-- Display param property&nbsp;  
-*Text to display as topic for search results*
+- Display param property  
+*Tekst om weer te geven als onderwerp voor zoekresultaten*
 
-For more detailed documentation about the use of parameters, refer to the geoserver tutorial:&nbsp;  
-`https://docs.geoserver.org/stable/en/user/tutorials/cql/cql_tutorial.html`
+Voor meer gedetailleerde documentatie over het gebruik van deze parameters, zie onderstaande link:  
+[https://docs.geoserver.org/stable/en/user/tutorials/cql/cql_tutorial.html](`https://docs.geoserver.org/stable/en/user/tutorials/cql/cql_tutorial.html`)
 
 ![WFS_search.PNG](https://github.com/mapgallery/manual/blob/main/static/images/WFS_search.PNG?raw=true)

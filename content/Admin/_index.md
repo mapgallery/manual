@@ -1,5 +1,5 @@
 ---
-title: "For administrators"
+title: "Voor beheerders"
 date: "`r format(Sys.time(), '%d %B, %Y')`"
 draft: false
 weight: 2

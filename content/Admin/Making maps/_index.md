@@ -6,12 +6,12 @@ weight: 3
 ---
 Configure maps
 
-This chapter will guide you to the process of making new maps
-To add a new map, press add map: 
+In dit hoofdstuk wordt het proces van het maken van nieuwe kaarten uitgelegd
+Om een nieuwe kaart toe te voegen, drukt u op kaart toevoegen: 
 ![login](https://github.com/mapgallery/manual/blob/main/static/images/addknop.PNG?raw=true)
 
-- **Add title:** Add an title for your map, this title will be visible once you published your map **This field is mandatory**
-- **Description:** Add an discription to your map for a little bit of information about the map
-- **Thumbnail:** Add an image by uploading or use and URL to the preview of your map
+- **Add title:** Voeg een titel toe voor uw kaart, deze titel zal zichtbaar zijn zodra de kaart gepubliceerd is. **Dit veld is verplicht**
+- **Description:** Voeg een beschrijving aan de kaart toe om informatie over de kaart te geven.
+- **Thumbnail:** Voeg een afbeelding toe door gebruik te maken een URL voor de preview van uw kaart
 
 ![login](https://github.com/mapgallery/manual/blob/main/static/images/Add-maps.JPG?raw=true)

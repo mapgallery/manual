@@ -1,11 +1,10 @@
 
-baseURL = 'https://mapgallery.info/manual/'
+baseURL = 'https://localhost:1313/manual/'
 languageCode = 'en-us'
-title = 'MapGallery User Manual'
+title = 'MapGallery handleiding'
 theme = 'docdock'
 
 [params]
-themeStyle = 'flex'
-themeVariant = 'blue'
+themeStyle = 'original'
 [outputs]
 home = [ "HTML", "RSS", "JSON"]

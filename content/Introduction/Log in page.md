@@ -1,10 +1,15 @@
 ---
-title: "Log in page"
+title: "Log in pagina"
 date: "`r format(Sys.time(), '%d %B, %Y')`"
 draft: false
 weight: 2
 ---
-Please log in with your credentials.
 
-Not a customer yet? Get in contact with MapGallery
+### Log in
+Log in met uw gebruikersnaam en wachtwoord.
 
+Nog geen gebruikers? Neem contact op met MapGallery!
+
+### SSO
+
+Single Sign-On

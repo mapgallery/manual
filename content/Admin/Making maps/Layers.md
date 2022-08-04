@@ -4,52 +4,50 @@ date: 2022-04-08T14:39:00+02:00
 draft: true
 weight: 3
 ---
+De lagen zullen worden gezien door de gebruikers van de kaart. In dit tabblad kunnen wijzigingen aan lagen in een kaart worden toegevoegd of bewerkt.
 
-The layers will be seen by the users of the map. In this tab, any changes to layers in a map can be added or edited.&nbsp;  
+### Groep toevoegen/bewerken
+Om een nieuwe laag toe te voegen, moet een groep worden gemaakt. Klik op groep toevoegen en voer een naam in voor deze groep en kies een laagafhandeling
 
-### Add/edit group
-To add a new layer, a group has to be made. Click on add group and enter a name for this group and choose a layer handling
-
-Press the + add layer button to add layers ![mapinfo](https://github.com/mapgallery/manual/blob/main/static/images/addknop.PNG?raw=true)
-
-Press the dropdown menu to edit, delete or copy this layer to clipboard
+Druk op de knop + laag toevoegen om lagen toe te voegen ![mapinfo](https://github.com/mapgallery/manual/blob/main/static/images/addknop.PNG?raw=true)  
+Druk op het dropdown menu om deze laag te bewerken, te verwijderen of te kopiëren naar het klembord
 
 
 
-### Layer options
-- Service: &nbsp;  
-Choose a service. &nbsp;  
-To add or edit a service, see `For administrators > Configuration > Service`
+### Laag opties
+- Service:   
+Kies een service.   
+Om services toe te voegen of te bewerken, zie [`Voor beheerders > Configuratie > Services`](https://mapgallery.info/manual/admin/configuration/services/)
 
-- Layername:&nbsp;  
-Name the layer
+- Layer name:  
+Geef de laag een naam
 
-- Path:&nbsp;  
-*Default = path/to/layername/{z}/{y}/{x}*
+- Path:  
+*Standaard = path/to/layername/{z}/{y}/{x}*
 
-- Title (short): &nbsp;  
-this will be the name for this layer
+- Title (short):   
+dit wordt de naam voor deze laag
 
-- Description:&nbsp;  
-Short description about this layer
+- Description:  
+Korte beschrijving van deze laag
 
-- Opacity: &nbsp;  
-choose a opacity ranging from 0 to 1, default is 0,9&nbsp;  
+- Opacity:   
+kies een dekking variërend van 0 tot 1, standaard is 0,9  
 
-- Keep layer on top:&nbsp;  
-Check if this layer has to be on top everytime
+- Keep layer on top:  
+Vink aan of deze laag altijd op de voorgrond moet staan
 
-- Hide options: &nbsp;  
+- Hide options:   
 
-> - If Hide in layer tree is checked, this layer will not be visible to any users
-> - If Do not show the legend is checked, legend of this layer will not be visible in the legend
-> - If Exclude from feature info is checked, information will not be shown in the popup when a selection is made
+> - Als "Hide in layer tree" is aangevinkt, zal deze laag voor geen enkele gebruiker zichtbaar zijn
+> - Als "Do not show the legend" is aangevinkt, zal de legenda van deze laag niet zichtbaar zijn in de legenda
+> - Als "Exclude from feature info" is aangevinkt, zal de informatie niet worden getoond in de popup wanneer een selectie wordt gemaakt
 
-- Metadata URL: &nbsp;  
-Add an URL for the metadata
+- Metadata URL:   
+Voeg een URL toe voor de metadata
 
-- Metadata: &nbsp;  
-Add plaintext in to your metadata
+- Metadata:   
+Voeg platte tekst toe aan uw metadata
 
 
 ![mapinfo](https://github.com/mapgallery/manual/blob/main/static/images/layers.PNG?raw=true)

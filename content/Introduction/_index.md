@@ -1,53 +1,52 @@
 ---
-title: "Introduction"
+title: "Introductie"
 date: "`r format(Sys.time(), '%d %B, %Y')`"
 draft: false
 weight: 1
 ---
+# Welkom bij MapGallery  
 
-Welcome to MapGallery &nbsp;  
+Wat kunt u van deze handleiding verwachten?
 
-What to expect from this manual?
+## Inleiding
+De introductiepagina geeft een kort overzicht van wat u in deze handleiding kunt verwachten
 
-## Introduction
-The introduction page will acts as a brief overview on what to expect in this manual
+##### Inlog pagina
+De inlogpagina zal worden besproken
 
-##### Log in page
-Log in page will be discussed
+## Beheerders handleiding
+Het onderdeel Beheerders handleiding geeft de beheerder inzicht in de mogelijkheden voor het configureren van een MapGallery kaart
 
-## Administrator manual
-Administrator manual section gives the administrator an insight to features on how to configure a MapGallery map
+##### Installatie
+De installatie bevat installatiemethodes en een snelstart voor het installeren van MapGallery
 
-##### Installation
-The installation contains installation methods and a quickstart for installing MapGallery
+##### Configuratie
+De sectie Configuratie bevat configuratie-instellingen die op de gehele MapGallery applicatie van toepassing zijn
+- Gebruiker/groep toegangspagina bevat configuraties voor het toegangsbeleid van gebruikers en groepen.
+- Map info pagina bevat configuraties voor het soort informatie dat op een kaart wordt getoond
+- Zoek pagina bevat configuraties voor zoekattributen in de zoekbalk
+- Services pagina bevat configuraties van Services voor laag configuratie
+- View bevat configuraties voor het maken of bewerken van nieuwe weergaves
 
-##### Configuration
-The configuration section contains configuration settings that apply to the entire MapGallery application
-- User/group access page contains configuration for user and group access policies.
-- Map info page contains configurations for the kind of information is shown on a map
-- Search page contains configurations for search attributes in the search bar
-- Services page contains configurations for any services for layer configuration
-- View page contains configurations for creating or edit new default views
+##### Kaarten maken
+- De pagina Instellingen bevat configuraties voor het maken van een nieuwe kaart
+- Lagen pagina bevat configuraties voor het bewerken van lagen
+- Pagina Attributen bevat configuraties voor Widget en de selectie voor Zoekattributen voor een kaart
 
-##### Making maps
-- Settings page contains configurations for making a new map
-- Layers page contains configurations about editing layers
-- Attributes page contains configurations for Widget and the selection for Search attributes for a map
+##### Hoe in te insluiten
+De pagina Hoe in te sluiten geeft een algemene uitleg over hoe een kaart in een website te gebruiken
 
-##### How to embed
-How to embed page gives a general explanation on how to use a map in a website
+## Gebruikershandleiding
+De sectie Gebruikershandleiding bevat uitleg voor een gebruiker om hen te begeleiden bij het gebruik van een MapGallery kaart
 
-## User manual
-User manual section contains explanation for a user to guide them on using a MapGallery map
+## Over MapGallery
+De sectie Over MapGallery bevat een brief over MapGallery, geschiedenis van versies en licenties
 
-## About MapGallery
-About MapGallery section contains a letter about MapGallery, history of versions and licenses
+##### Betrokken raken
+- Betrokken raken pagina bevat een brief over de liefde van de makers van MapGallery en hoe MapGallery te verspreiden
 
-##### Getting involved
-- Getting involved page contains a letter about the love from the makers of MapGallery and how to spread MapGallery
+##### Geschiedenis van versies
+- Geschiedenis van versies met korte uitleg wordt op deze pagina getoond
 
-##### History of versions
-- History of versions with brief explanation will be shown in this page
-
-##### License and Terms of Conditions
-- Read everything about the license and terms of conditions in this page 
+##### Licentie en voorwaarden
+- Lees alles over de licentie en voorwaarden op deze pagina 

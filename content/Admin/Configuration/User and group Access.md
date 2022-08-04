@@ -1,41 +1,41 @@
 ---
-title: "User/group Access"
+title: "Toegangankelijkheid"
 date: 2022-04-08T14:39:00+02:00
 draft: true
 weight: 1
 ---
 
-This section provides the configuration options for User/group and Access. In addition, users, groups, and roles themselves and can be added, edited, or removed. Configuration for the whole MapGallery site can be accomplished in this section.
+Dit onderdeel geeft configuratie opties weer voor toegang van Gebruiker/Groep. De administrator kan gebruikers, groepen en rollen zelf toevoegen, bewerken en/of verwijderen. Configuratie van de gebruikte gehele MapGallery site kan in deze sectie worden uitgevoerd.
 
-##### Add/edit users
+##### Gebruikers toevoegen/bewerken
 
-To add or edit users, press the button and fill in all the necessary fields to create a new user.
+Om gebruikers toe te voegen of te bewerken, drukt u op de knop en vult u alle benodigde velden in om een nieuwe gebruiker aan te maken.
 
-**Tab "User"**
+**Tabblad "Gebruiker "**
 
-- Username: this name will be used to login in
-- Name: Name of user
-- Description: add a discription to this user
-- Role: define what role this user should have: Viewer, only allows user to view the published maps Admin, allows user to make changes in the admin interface
-- Password: a random password is generated, password can also be changed manually
+- Gebruikersnaam: deze naam zal worden gebruikt om in te loggen
+- Naam: Naam van de gebruiker
+- Beschrijving: voeg een beschrijving toe aan deze gebruiker
+- Rol: definieer welke rol deze gebruiker moet hebben: Viewer, staat de gebruiker alleen toe om de gepubliceerde kaarten te bekijken Admin, staat de gebruiker toe om wijzigingen aan te brengen in de admin interface
+- Wachtwoord: een willekeurig wachtwoord wordt gegenereerd, wachtwoord kan ook handmatig worden gewijzigd.
 
-**Tab “Groups”**
+**Tabblad "Groepen "**
 
-Select groups to determine the access policy on group level
+Selecteer groepen om het toegangsbeleid op groepsniveau te bepalen.
 
-##### Add/edit groups
+##### Groepen toevoegen/bewerken
 
-To add or edit users, press the button and fill in all the necessary fields to create a new user.
+Om gebruikers toe te voegen of te bewerken, drukt op de knop en vul alle nodige velden in om een nieuwe gebruiker aan te maken.
 
-**Tab "Group"**
+**Tabblad "Groep "**
 
-- Name: group name
-- Description: description
+- Naam: naam groep
+- Beschrijving: omschrijving
 
-**Tab "Users"**
+**Tabblad "Gebruikers "**
 
-Select all users who has access to this group
+Selecteer alle gebruikers die toegang hebben tot deze groep
 
-**Tab "Maps"**
+**Tabblad "Kaarten "**
 
-Select the maps this group has access to
+Selecteer de kaarten waartoe deze groep toegang heeft

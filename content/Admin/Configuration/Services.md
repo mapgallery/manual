@@ -4,41 +4,42 @@ date: 2022-04-08T14:39:00+02:00
 draft: true
 weight: 4
 ---
-In Services, a data source can be added for layers in a map. &nbsp;  
-Many services are already linked from te source into MapGallery, please look at the list to see wheter your services is already linked.
+In Services kan een gegevensbron worden toegevoegd als lagen voor in een kaart.   
+Veel services zijn al gekoppeld in MapGallery, neem een kijk in de lijst om te zien of de service al gekoppeld is.
 
-To add a new data source, press add:
-- URL: enter data source URL
-- Protocol: select protocol
-- Title: add a (unique) title
+Om een nieuwe databron toe te voegen, druk op toevoegen:
+- URL: voer de URL van de gegevensbron in
+- Protocol: selecteer protocol
+- Titel: voeg een (unieke) titel toe
 
-**Protocol options:** *Depending on the protocols, some fields below won't be available*
-- Extension: &nbsp;  
-
-
-- Info format: &nbsp;  
-HTML or JSON
-
-- Image format: &nbsp;  
-Choose what image the source has to use.&nbsp;  
-JPEG is commonly chosen to display basemaps because it is non-transparent
-
-- Server type:&nbsp;  
-Source will be altered to the chosen server type
-
-- Version: &nbsp;  
-Choose a type of WMS
-
-- Origin: &nbsp;  
+**Protocol options:** *Afhankelijk van de protocollen, zullen sommige velden hieronder niet beschikbaar zijn*
+- Extensie:   
 
 
-- Resolution: &nbsp;  
+- Info format:   
+HTML of JSON
+
+- Image format:   
+Kies een afbeelding dat de bron moet gebruiken.  
+JPEG wordt vaak gekozen om basemaps weer te geven omdat het niet-transparant is
+
+- Server type:  
+De bron zal worden aangepast aan het gekozen server type
+
+- Version:   
+Kies een type WMS
+
+- Origin:   
 
 
-- Single tile:&nbsp;  
-If checked, multiple tiles will be processed at the server before showing on the map
+- Resolutions:   
 
-- Authentication type: &nbsp;  
-*Authentication might be required for some data sources*
 
-Validate Service to test if Service has correctly been added
+- Single tile:  
+Indien aangevinkt, worden meerdere tiles op de server alvorens verwerkt om vervolgens op de kaart te tonen
+
+- Authentication type:   
+*Authenticatie kan een vereiste bij bepaalde gegevensbronnen*
+
+- Validate service:  
+Te testen of de dienst correct is toegevoegd

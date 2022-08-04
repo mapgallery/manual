@@ -1,18 +1,15 @@
 ---
-title: "License"
+title: "Licentie"
 date: 2022-04-08T14:39:00+02:00
 draft: true
 ---
 ### MapGallery
+MapGallery is een eenvoudige oplossing voor het bekijken van interactieve kaarten en locatiegegevens. Het is ontworpen met eenvoud, prestaties en bruikbaarheid in het achterhoofd en werkt efficiënt op alle belangrijke desktop en mobiele platforms.
 
-[MapGallery](http://mapgallery.info) is a straightforward solution for interactive maps and location data viewing. It is designed with simplicity, performance and usability in mind and works efficiently across all major desktop and mobile platforms.
+We zijn voortdurend bezig met het ontwikkelen van coole nieuwe dingen. Ook deze Wiki wordt elke dag completer. Omdat het project in Nederland is opgericht, is sommige documentatie nog in het Nederlands. Onze intentie is om de Wiki te completeren met Engelstalige documentatie. Alle hulp wordt op prijs gesteld!
 
-We are constantly developing cool new things. Also this Wiki is getting more complete every day. Because the project is founded in the Netherlands, some documentation is still in Dutch. Our intention is to complete the Wiki with English documentation. Any help is appreciated!
+### Voorwaarden en condities
+MapGallery is gelicenseerd onder de BSL versie 1.1. Zie LICENSE.txt en de MapGallery website voor details. MapGallery is vrij voor intern gebruik in bedrijven en academische instellingen en voor niet-commerciële doeleinden. Voor bepaalde vormen van commercieel gebruik, zoals het bouwen van closed-source apps en apparaten gebaseerd op MapGallery of het aanbieden van MapGallery als een for-profit dienst, is een commerciële licentie vereist.
 
-### Terms and conditions
-
-MapGallery is licensed under the BSL version 1.1. See LICENSE.txt and the MapGallery website for details. MapGallery is free to use internally in businesses and academic institutions and for non-commercial purposes. Certain types of commercial use such as building closed-source apps and devices based on MapGallery or offering MapGallery as a for-profit service requires a commercial license.
-
-### Support or Contact
-
-Having trouble with MapGallery? Check out our [documentation](https://mapgallery.github.io/manual/) or [contact support](mailto:info@mapgallery.info) and we’ll help you sort it out.
+### Ondersteuning of Contact
+Ondervindt u problemen met MapGallery? Bekijk onze documentatie of neem contact op met support en we helpen u het op te lossen.

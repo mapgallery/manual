@@ -1,14 +1,13 @@
 ---
-title: "For users"
+title: "Voor eindgebruikers"
 date: "`r format(Sys.time(), '%d %B, %Y')`"
-draft: false
+draft: true
 weight: 3
 ---
 
-#### MapGallery manual for users
-Welcome to the manual for users of MapGallery
+### MapGallery handleiding voor eindgebruikers
+Welkom bij de handleiding voor eindgebruikers van MapGallery
 
-This User Manual is a guide to use the MapGallery environment.
-Whether you are a novice or a veteran user of this software, we hope that this documentation will be a helpfull reference.
+Deze gebruikershandleiding is een gids voor het gebruik van de MapGallery omgeving. Of u nu een beginner of een ervaren gebruiker van deze software bent, wij hopen dat deze documentatie een nuttige referentie zal zijn.
 
-To help us improve our product or this manual, please feel free to contact us or make your own changes!
+Om ons te helpen ons product of deze handleiding te verbeteren, kunt u altijd contact met ons opnemen of uw eigen wijzigingen aanbrengen!

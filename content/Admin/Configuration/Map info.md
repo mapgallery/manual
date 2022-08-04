@@ -5,15 +5,15 @@ draft: true
 weight: 2
 ---
 
-Choose what type of map information will pop up when an selection is made.
+Kies welk type kaartinformatie zal verschijnen wanneer een selectie wordt gemaakt.
 
-- Coordinate: shows coordination of selected location
-- Streetview: streetview of selected locations will be shown if possible
-- Feature info: information/attributes and the values about the selected location(s) will be shown
+- Coördinaten: toont de coördinaten van de geselecteerde locatie
+- Streetview: Google Streetview van de geselecteerde locatie wordt getoond indien mogelijk
+- Feature info: informatie/attributen en de waarden over de geselecteerde locatie(s) worden getoond
 
-Visibility:
-- Collapse: Information will be collapsed in information popup
-- Visible: information will automatically be opened in information popup
+Zichtbaarheid:
+- Samenvouwen: Informatie wordt samengevouwen in informatie popup, dit kan handmatig geopend worden
+- Zichtbaar: informatie wordt automatisch geopend in informatie popup
 
 ![mapinfo](https://github.com/mapgallery/manual/blob/main/static/images/mapinfo.PNG?raw=true)
 

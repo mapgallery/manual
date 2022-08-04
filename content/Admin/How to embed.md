@@ -1,20 +1,20 @@
 ---
-title: "How to embed"
+title: "Insluiten in website"
 date: 2022-04-08T14:39:00+02:00
 draft: true
 weight: 4
 ---
 
-Finally, the map is finished and it's time to add it into your website.&nbsp;  
-The best way to do it is to embed it into your website. Therefor an iframe must be created.
-1. Open the map in published maps
-2. Click on the share logo in the top right
-3. press the </> Embed button.
-4. Select whether you want to have extra parameters in in the code
-5. Copy text
-6. Paste in HTML of your website
+Eindelijk, de kaart is af en het is tijd om deze toe te voegen aan de website;  
+De beste manier om dit te doen is door het in te sluiten in uw website. Daarvoor moet een iframe gemaakt worden.
+1. Open de kaart in gepubliceerde kaarten
+2. Klik op het share logo in de rechterbovenhoek
+3. Druk op de </> Embed knop.
+4. Selecteer of extra parameters in de code meegenomen moeten worden
+5. Kopieer tekst
+6. Plak in HTML van de website
 
-Example simplified
+Voorbeeld vereenvoudig (simplified)
 
     <iframe
         id="mapgallery1"
@@ -25,7 +25,7 @@ Example simplified
         src="https://baasgeo.mapgallery.info/app/embed/1">
     </iframe>
 
-Example with parameters
+Voorbeeld met parameters
 
     <iframe
         id="mapgallery1"

@@ -5,8 +5,8 @@ draft: false
 
 ---
 
-# MapGallery User Manual
-Welcome to the user manual of MapGallery
+# MapGallery Gebruikershandleiding
+Welkom bij de gebruikershandleiding van MapGallery
 
-This User Manual is a guide to all aspects of using and configuring your MapGallery environment.
-Whether you are a novice or a veteran user of this software, we hope that this documentation will be a helpful reference.
+Deze gebruikershandleiding is een gids voor alle aspecten van het gebruik en de configuratie van uw MapGallery omgeving.
+Of u nu een beginner of een ervaren gebruiker van deze software bent, wij hopen dat deze documentatie een nuttig naslagwerk zal zijn.
